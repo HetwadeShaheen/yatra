@@ -6,6 +6,7 @@
 	<artifactId>Yatra</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+			
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -26,5 +27,15 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.0.8</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.0.3</version>
+    			<scope>test</scope>
+    
+</dependency>
+		
+	
 	</dependencies>
 </project>

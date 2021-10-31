@@ -11,7 +11,6 @@ public class TestCase1  {
 	
 	public void test1()
 	{
-		System.setProperty("webdriver.chrome.driver", "./Soft/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.yatra.com/");
 		driver.manage().window().maximize();
